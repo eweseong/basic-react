@@ -1,0 +1,9 @@
+.app-logo {
+  display: inline-flex;
+  width: 8.375rem;
+  margin: auto 1rem;
+}
+
+.app-logo img {
+  width: inherit;
+}
