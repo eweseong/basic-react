@@ -1,0 +1,14 @@
+.poster {
+  min-width: 200px;
+  width: 200px;
+}
+
+.poster + .poster {
+  margin-left: 0.5rem;
+}
+
+.poster__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

@@ -1,0 +1,10 @@
+.poster-list__title {
+  text-transform: capitalize;
+}
+
+.poster-list__container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  overflow-x: auto;
+}
