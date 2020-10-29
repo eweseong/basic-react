@@ -1,0 +1,20 @@
+.loading:after {
+  content: "\2026"; /* ascii code for the ellipsis character */
+  display: inline-block;
+  width: 0;
+  vertical-align: bottom;
+  overflow: hidden;
+  animation: ellipsis steps(4,end) 900ms infinite;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 20px;    
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 20px;    
+  }
+}
