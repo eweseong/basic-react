@@ -1,0 +1,10 @@
+.title {
+  text-transform: capitalize;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  overflow-x: auto;
+}

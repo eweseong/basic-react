@@ -1,0 +1,27 @@
+.show-detail {
+  max-width: 768px;
+  margin: auto;
+}
+
+.show-detail__image {
+  max-width: inherit;
+  width: 100vw;
+}
+
+.show-detail__rating--good {
+  color: #5cdf5c;
+}
+
+.show-detail__rating--average {
+  color: orange;
+}
+
+.show-detail__rating--bad {
+  color: red;
+}
+
+@media only screen and (max-width: 768px) {
+  .show-detail__image {
+    margin-left: -2rem;
+  }
+}
